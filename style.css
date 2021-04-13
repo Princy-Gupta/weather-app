@@ -1,0 +1,55 @@
+body 
+ {
+    background-image: url(img.jpg);  
+    background-repeat:no-repeat;
+    background-size: cover; 
+ }
+  input[type=text]
+  {
+      background: transparent;
+      margin-top: 8%;
+      margin-left: 40%;
+      padding: 1%;
+      border-radius: 25% 10%;
+      font-family: 'Lato', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      border: 2px solid #9dbeb9;
+      color: white;
+  }
+  input[type=text]:focus
+  {
+      outline: transparent;
+  }
+  div
+  {
+      position: relative;
+      margin-top: 3%;
+      margin-left: 40%;
+    
+  }
+  div h1
+  {
+      color: white;
+      text-transform: capitalize;
+  }
+  div h4
+  {
+    color: white;
+  }
+
+  #temp
+  {
+      font-size: 5rem;
+      color: white;
+  }
+  #weather
+  {
+    color: white;
+    font-size: 1.2rem;
+  }
+  #min-max
+  {
+    color: white;
+    font-size: 1.2rem;
+  }
